@@ -1,0 +1,407 @@
+  :root {
+    --primary-color: #e49190;
+    --gray-dark: #263a41;
+    --gray-light: #888;
+    --white: white;
+    --black: black;
+    --bg-block: #fff9f8;
+    --primary-font: "Roboto";
+    --secondary-font: "Rufina";
+    --wrapper: 192rem;
+    --container: 117rem;
+    
+  }
+  :root {
+    --color-text: #585858;
+    --Hover-icon: #FF9B42;
+}
+
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-family: var(--primary-font);
+    font-weight: 300;
+    color: var(--gray-dark);
+    background-color: var(--white);
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height:auto;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+  }
+
+  .header__image {
+    position: absolute;
+    right: 0; 
+    top: 0;
+    max-width: auto;
+  }
+  .header__top {
+    padding-top: 2rem;
+    display: flex;
+    align-items: baseline;
+  }
+  .header__logo {
+    max-width: 85px;
+    width: auto;
+    transform: translateY(20px);
+  }
+  /*Menu*/
+  .menu {
+    margin-left: 14%;
+    position: relative;
+    z-index: 2;
+  }
+  .menu__list {
+    display: flex;
+    align-items: center;
+  }
+  .menu__item {
+    margin: 0 2.5rem;
+  }
+  .menu__link {
+    color: var(--gray-dark);
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.2s linear;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .menu__link:hover {
+    color: var(--primary-color);
+  }
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .logo a {
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    letter-spacing: auto;
+  }
+  .icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 600px;
+    box-sizing: border-box; 
+  }
+
+  .icons a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    position: relative;
+    box-sizing: border-box;
+  }
+
+  .cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    box-sizing: border-box;
+  }
+  .shop-container {
+      text-align: center;
+      min-height: 40vh;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      position:relative;
+  }
+  .shop-container-img{
+    top:0; 
+    position:absolute;
+    font-size: 1em;
+    color: #000000;
+    margin-bottom: 1.5em;
+    margin-left: 330px;
+  }
+  .breadcrumb{
+    margin-left: 290px;
+    font-size: large;
+    font-size: 2em;
+    color: #000000;
+    margin-bottom: 1.5em;    
+  }
+  .item-list {
+      display: flex;
+      justify-content: center;
+      gap: 100px;
+  }
+  .item-title{
+    font-size: 1.5em;
+  }
+  .item img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+  }
+  .Categories h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .Categories .category-list {
+    list-style: none;
+    font-size:auto;
+  }
+  .Categories .category-list li {
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  .price-range {
+    width: 300px; /* Điều chỉnh độ rộng thanh trượt */
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #d5cac0 0%, #c64c14 100%); /* Hiệu ứng gradient */
+    outline: none;
+    opacity: 0.8;
+    transition: opacity 0.3s, background 0.3s; /* Thêm hiệu ứng mượt mà hơn */
+  }
+  
+  .slider:hover {
+    opacity: 1; /* Tăng độ trong suốt khi di chuột */
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #d75016;
+   
+  }
+  .range-value {
+    margin-top: 10px;
+    font-size: 20px; /* Tăng kích thước chữ */
+    color: #080808; /* Đổi màu chữ */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .select-product {
+  padding: 0 15px;
+  font-size: 15px;
+  width: 150%;
+  }
+.product-info{
+  font-size: 20px;
+  height:200px;
+  padding: 0 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.product-detail ul{
+  display:flex;
+}
+.product-detail li{
+  margin: 0 10px;
+  max-width: 300px;
+}
+.container{
+  background-color:  #f8f8f8;
+  font-size: 15px;
+}
+.footer h5 {
+  color: #000000;
+}
+.company-title {
+  font-size: 15px; /* Thay đổi kích thước chữ tùy ý */
+  font-weight: bold; /* Làm chữ đậm */
+  color: black; /* Đặt màu chữ là đen */
+}
+.ms-3{
+  font-size: 20px;
+  color: #fff; /* Màu sắc của icon */
+  background-color: #000; /* Màu nền của icon */
+  border-radius: 100%; /* Làm tròn góc của icon */
+  padding: 10px; /* Khoảng cách nội dung bên trong icon */
+  margin: 0 0px; /* Khoảng cách giữa các icon */
+}
+
+.product-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.colors, .sizes, .brands {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.color-option, .size-option {
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin: 5px;
+  border: 1px solid #f6f0f0;
+  border-radius: 50%;
+  font-size: 10px;
+}
+
+.size-option {
+  width: 50px;
+  border-radius: 5px;
+  font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.brand-option{
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin: 5px;
+  border: 1px solid #e8e4e4;
+  border-radius: 100%;
+  font-size: 10px;
+}
+.contact-info p {
+  margin: 5px 0 15px 0;
+  font-size: 18px;
+  color: #070505;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+/* Vị trí nút chuyển slide */
+#left {
+  position: absolute;
+  top: 50%;
+  left: -300px;
+  transform: translateY(50%);
+  
+}
+
+#right {
+  position: absolute;
+  top: 50%;
+  right: -300px;
+  transform: translateY(50%);
+}
+
+#left i , #right i {
+  font-size: 25px;
+  color: var(--color-text);
+}
+
+#left:hover, #right:hover {
+  background-color: var(--Hover-icon);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#left:hover i, #right:hover i {
+  color: white;
+}
+
+#left, #right {
+    /* display: none; */
+    width: 65px;
+    height: 65px;
+    border: none;
+    border-radius: 40px;
+    padding: 15px;
+    text-align: center;
+    transition: 0.5s;
+}
+.old-price{ 
+  text-decoration: line-through; 
+  color: gray;
+}
+
+.labels {
+  position: absolute;
+  top: 370px;
+  display: flex;
+  gap: 6px;
+
+}
+.labels span {
+  font-size: 10px;
+  font-weight: bold;
+  padding: 3px 8px;
+  color: white;
+}
+
+
+.discount {
+  background-color: #e74c3c;
+}
+
+.hot {
+  background-color: #27ae60;
+}
+
+
+
+/* General Reset */
+* {
+
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Container */
+.feature-product {
+  width: 300px;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Product Item */
+.product-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.product-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.product-details h3 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.stars {
+  color: gold;
+  font-size: 12px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: gray;
+  margin-right: 5px;
+}
+
+.new-price {
+  color: black;
+  font-weight: bold;
+}

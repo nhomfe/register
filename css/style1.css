@@ -1,0 +1,137 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", Arial,
+    sans-serif;
+  background-color: #fffefe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: auto;
+  font-size: larger;
+}
+
+.container {
+  background-color: #eeeaea;
+
+  border-radius: 10px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  width: auto;
+}
+.container img {
+  display: block;
+  max-width: 100%;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.sign-in-form {
+  padding: 10px;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+}
+
+button {
+  color: rgb(214, 187, 187);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.btn-secondary {
+  background-color: #dcdcdc;
+  color: black;
+}
+
+.btn-secondary:hover {
+  opacity: 0.9;
+}
+
+.form-login-register .box-form-login .rememberme-lost {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 17px;
+  margin-bottom: 30px;
+}
+.form-login-register .box-form-login .content input {
+  width: 100%;
+  padding: 10px 40px 10px 20px;
+  line-height: calc(var(--font-size-body, 18px) + 16px);
+}
+/* Định dạng chung cho các nút */
+.button {
+  width: 100%;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+/* Định dạng cho nút "SIGN IN" */
+.button-signin {
+  background-color: #000000; /* Màu đen */
+}
+
+/* Định dạng cho nút "CREATE AN ACCOUNT" */
+.button-create {
+  background-color: #666666; /* Màu xám */
+}
+
+/* Thêm khoảng cách giữa hai nút */
+.button-container {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.button-container .button {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.forgot_password a {
+  color: #000000;
+  display: inline-block;
+}
+.sign-in-img {
+  position: relative;
+  display: block;
+  width: auto;
+}
+.sign-in-img img {
+  width: auto;
+  height: auto;
+}
+.sign-in-img h2 {
+  position: absolute;
+  top: 50%;
+  padding: 20px;
+  color: white;
+  font-size: 24px;
+}
+
+.sign-in-form #f-password {
+  position: relative;
+}
+
+.sign-in-form i {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
